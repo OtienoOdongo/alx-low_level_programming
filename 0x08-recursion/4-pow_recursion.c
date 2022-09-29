@@ -1,8 +1,8 @@
-include "main.h"
+#include "main.h"
 /**
  * _pow_recursion - returns the value of x raised to the power of y
- * @y: power
- * @x: number
+ * @x:number
+ * @y:pow
  *
  * Return: x to the power of y
  * -1 if x < 0
