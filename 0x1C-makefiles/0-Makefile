@@ -1,0 +1,4 @@
+all: 0-Makefile
+#all is used to specify that the 0-Makefile target should be built when the make command is run with no arguments.
+0-Makefile: main.c school.c
+	gcc main.c school.c -o school
