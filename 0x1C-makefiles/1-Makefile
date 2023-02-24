@@ -1,0 +1,10 @@
+CC = gcc
+SRC = main.c school.c
+#CC is the name of compiler used which in this case is gcc
+#SRC is the source file ending with .c 
+all: $(SRC) m.h
+	$(CC) $(SRC) -o school
+#$(SRC) lists all the source files needed to build a target executable
+#$(CC) contains the name of C compiler used i.e. gcc
+#m.h is used to specify the header files needed by one or more source file listed in $(SRC)
+
